@@ -4,6 +4,10 @@ module.exports = {
   rewrites: async () => {
     return [
       {
+        source: "/blog",
+        destination: "https://00220934-turborepo-next-basic-docs.vercel.app/blog",
+      },
+      {
         source: "/blog/:path*",
         destination: "https://00220934-turborepo-next-basic-docs.vercel.app/blog/:path*",
       },
